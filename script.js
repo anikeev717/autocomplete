@@ -7,7 +7,7 @@ class Interface {
 
     this.appInput = document.createElement("input");
     this.appInput.classList.add("app__input");
-    this.appInput.placeholder = "Введите текст...";
+    this.appInput.placeholder = "Enter the text...";
     this.appInput.addEventListener("keyup", this.debounce(this.findInfo, 500));
     this.app.appendChild(this.appInput);
 
